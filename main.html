@@ -1,0 +1,210 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title> HERA TOUR </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<style>
+			@font-face {
+				font-family: 'TheJamsil5Bold';
+				src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+				font-weight: 700;
+				font-style: normal;
+			}
+		</style>
+		<style>
+			*{
+				margin:0px; 
+			    padding:0px; 
+				box-sizing : border-box;}
+				
+			ul, ol{
+				list-style:none;}
+				
+			a{
+				text-decoration: none;}
+				
+			html,body{
+				width : 100%; 
+				height : 100%;
+				margin : 0 auto;
+				font-family: 'TheJamsil5Bold';
+				position : relative;
+				}
+			
+			header{
+				color : white; 
+				height :250px;
+				background-image : url("images/sky.jpg");
+				background-repeat : no-repeat;
+				background-size : cover;
+				background-position : center -200px;
+				justify-content : center;
+				text-align : center;
+				border : 2px solid #000069;
+				font-size : 80px;
+				padding-top : 75px;
+				}
+			
+			nav{
+				justify-content : center;
+				line-height : 2em;
+				padding-top : 0.9em;
+				width : 100%;
+				height : 87px;
+				background-color : #000069;
+				border-top : white;
+				border-bottom : white;
+				font-size : 20px;
+				color : #000069;
+				}
+
+			.nav_menu_ul{
+				display : flex;
+				}
+				
+			.nav_menu{
+				background-color : white; 
+				padding : 5px; width : 200px; text-align : center ;
+				width : 33.3%;
+				height : 100%;
+				text-align : center;
+				}
+
+			#aside_left{
+				width : 10%;
+				float : left;
+				height : 100%;
+				background-color :  #000069;
+				color : white;
+				border-top : 2px solid white; 
+				}
+				
+			.category{
+				padding-top : 30px;
+				font-size : 30px;
+				color : white;
+				margin-bottom : 20px;
+				justify-content : center;
+				text-align : center;
+				}
+				
+			.nav_menu_aside{
+				text-align : center;
+				justify-content : center;
+				background-color : #000069;
+				height : 50px;
+				line-height : 2.5em;
+				margin-top : 0;
+				margin-bottom : 5px;
+				font-size : 20px;
+				border-top : 2px solid white; 
+				border-bottom : 2px solid white;
+				}
+
+			.aside_options:link{ color : white; }
+			.aside_options:visited{ color : white; }
+		    .aside_options:hover { color : #FFE641; }
+			.aside_options:active { color : gold; }
+			
+			.upper_options:link{ color : #000069; }
+			.upper_options:visited{ color : #000069; }
+		    .upper_options:hover { color : #000000; }
+			.upper_options:active { color : #000000; }
+			
+			section{
+				float : left;
+				height : 100%;
+				width : 70%;
+				justify-content : center;
+				text-align : center;}			
+				
+			iframe{
+				width : 89vw;
+				height : 100vh;
+				}
+			
+			#background{
+				width : 100%;}
+				
+		
+		
+			footer{
+				position : fixed;
+				width : 100%;
+				bottom : 0px;
+				height : 60px;
+				background-color : black; 
+				color : white;
+				text-align : left;}
+
+
+
+				#topbutton{
+					width : 70px;
+					height : 50px;
+					position : fixed;
+					right : 10px;
+					bottom : 10px;}
+								
+				.shoppingcart{
+					width : 100%;
+					height : 200px;
+					padding : 20px;}
+	
+
+		</style>	
+	<body>		
+		
+		<header>
+		<div id = "title">✈ HERA TOUR</div>
+		</header>	
+		
+		<nav>
+			<ul class = "nav_menu_ul"> 
+				<li class = "nav_menu"><a href="details/231213_main.html" target = "iframe1" class = "upper_options"> HOME <a></li>
+				<li class = "nav_menu"><a href="details/231213_my_account.html" target = "iframe1" class = "upper_options"> MY ACCOUNT </li>
+				<li class = "nav_menu"><a href="details/231213_contact_us.html" target = "iframe1" class = "upper_options"> CONTACT US </li>
+			</ul>
+		</nav>
+					
+		<aside id = "aside_left"> 
+			<ul>
+				<div class = "category">CATEGORY</div></h1>
+					<li class = "nav_menu_aside"> 
+					<a href="details/231213_asia.html" target = "iframe1" class = "aside_options"> ASIA </a></li>
+
+					<li class = "nav_menu_aside">
+					<a href="details/231213_europe.html" target = "iframe1" class = "aside_options"> EUROPE </a></li>
+
+					<li class = "nav_menu_aside"> 
+					<a href="details/231213_middle_east.html" target = "iframe1" class = "aside_options">MIDDLE EAST</a></li>
+				
+					<li class = "nav_menu_aside">
+					<a href="details/231213_us_canada.html" target = "iframe1" class = "aside_options">USA / CANADA</a></li>
+			</ul>
+		</aside>	
+
+		<section>
+			<div id = "background";>
+				<iframe name = "iframe1" src = "details/231213_main.html" width = 100% height = 100% frameborder = "1";></iframe>
+			</div>
+		</section>
+
+					
+		<footer style = "color : gray; font-size : 10px;">
+			<br>
+			&nbsp 개인정보보호정책 &nbsp 메일주소무단수집거부<br>
+			<hr style = "border-color : gray; width : 99%; margin : 0 auto " >
+			&nbsp 회사명 : 한국히라나라 대표자 : 김히라 Tel : 053-123-4567 Fax : 053-987-6543 Email : HERA_KIM@korea.ac.kr 사업자번호 : 123-45-67890 Location : 대구광역시 동구 copyright&copy; 한국히라나라 All Rights Reserved.
+			<br><br>
+			<div id = "topbutton"><a href = "#title"><img src = "images/top_btn.png"></a></div>
+		</footer>	
+	
+	</body>		
+	</html>
+
+
+				
